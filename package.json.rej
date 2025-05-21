@@ -1,0 +1,10 @@
+diff a/package.json b/package.json	(rejected hunks)
+@@ -4,7 +4,7 @@
+   "main": "server.js",
+   "scripts": {
+     "test": "echo \"Error: no test specified\" && exit 1",
+-    "start": "node_modules/.bin/json-server --watch db.json --port 10000"
++    "start": "npx json-server --watch db.json"
+   },
+   "keywords": [],
+   "author": "",
